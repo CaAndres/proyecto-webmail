@@ -1,0 +1,127 @@
+body {margin: 0;
+background-color: red;}
+
+.my_fondo_camilo{
+    background-color: rgb(97, 106, 107, .3 );
+    padding-bottom: 3px;
+}
+.footer{
+   background-color: rgb(97, 106, 107, .6 );
+   height: 200px; 
+   padding-top: 100px;
+}
+
+
+
+/*--TITULOS--*/
+.mi1h1{ 
+    font-family: times;
+    text-align: center;
+    color: rgb(23, 32, 42);
+    display: inline-block;
+    font-weight: bold;
+}
+.mi2h1{
+    justify-content: center;
+    font-family: times;
+    text-align: center;
+    color: red;
+    display: inline-block;
+    font-weight: bold;
+}
+.figure img:hover{
+    width: 300px;
+}
+
+h1{
+    font-family: times, impact;
+}
+.p{
+    font-family: times;
+    font-size: 19px;
+    
+}
+.container{
+    padding: 2px 30px 0 30px;
+}
+.logo_bateria{
+    width: 18%;
+    height: auto;
+}
+
+
+
+
+/*IMAGENES DE MENU*/
+
+.spacio{ 
+    padding-top: 12px;
+}
+
+.border{
+    border-radius: 20px;
+    border: 0px; 
+}
+.img-email{
+            
+            width: 50%;
+        border-radius: 700px;
+        border: 0px solid none;
+           
+       }
+
+/* MENU HORIZONTAL */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+
+
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+.spacing-top{margin-top: 20px;}
+
+.img-email{width: 50%;}
+
+.title-h1{font-weight: bold; color: #ddd;}
+
+.registrado{font-weight: bold; text-decoration: underline;}
+
+.btn-read{
+    background-color: #fff;
+    border: 0;
+    width: 80%;
+    margin-left: 5px;
+    text-align: left;
+    cursor: pointer;
+    color: #2E2EFE;
+    font-weight: bold;
+}
+
+.btn-read:hover{
+    text-decoration: underline;
+}
